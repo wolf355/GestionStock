@@ -1,0 +1,27 @@
+
+# Fichiers compilés et générés
+target/
+out/
+bin/
+dist/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Fichiers locaux et configuration sensible
+.env
+.env.*
+!.env.example
+
+# Installateurs et exécutables générés
+*.exe
+
+runtime/
